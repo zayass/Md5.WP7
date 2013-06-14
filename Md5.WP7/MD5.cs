@@ -21,7 +21,7 @@ namespace System.Security.Cryptography
         public uint D;
     }
 
-    static class MD5Core
+    public static class MD5Core
     {
         //Prevent CSC from adding a default public constructor
 
