@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Md5.WP7</id>
+    <version>1.0.0</version>
+    <authors>Anton</authors>
+    <owners>Anton</owners>
+    <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
+    <projectUrl>https://github.com/zayass/Md5.WP7</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Unofficial package of Reid Borsuk and Jenny Zheng md5 raw implementation.</description>
+    <releaseNotes/>
+    <copyright>Copyright 2013</copyright>
+    <tags>cryptography md5 winphone</tags>
+    <dependencies/>
+  </metadata>
+</package>
