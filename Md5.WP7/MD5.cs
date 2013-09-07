@@ -109,7 +109,7 @@ namespace System.Security.Cryptography
             working[cbSize] = 0x80;
 
             //We have enough room to store the length in this chunk
-            if (cbSize <= 56)
+            if (cbSize < 56)
             {
                 Array.Copy(length, 0, working, 56, 8);
                 GetHashBlock(working, ref ABCD, 0);
